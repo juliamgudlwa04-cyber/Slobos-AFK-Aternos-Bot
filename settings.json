@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "LifeWorthSMPBot",
     "password": "",
     "type": "offline"
   },
@@ -9,7 +9,7 @@
     "ip": "LifeWorthSMP.aternos.me",
     "port": 49364,
     "version": "",
-    "try-creative": false
+    "try-creative": true
   },
   "position": {
     "enabled": true,
@@ -31,8 +31,8 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
+        "https://discord.gg/zpadTfHY5J",
+        "Subscribe to itsjeffreygamin!",
         "I like to play Minecraft!"
       ]
     },
@@ -77,7 +77,7 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
